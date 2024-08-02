@@ -16,18 +16,19 @@
   --font-family: 'Poppins', sans-serif;
   --text: 16px/1.5 var(--font-family);
   --text-lg: bold 32px/125% var(--font-family);
-  --text-md: bold 14px/175% var(--font-family);
-  --text-sm: 12px/175% var(--font-family);
+  --text-md: 14px/170% var(--font-family);
+  --text-sm: 12px/170% var(--font-family);
 }
 
 body {
   color: var(--text-color-secondary);
   background-color: var(--background-color);
+  font-family: var(--font-family);
 }
 
 a {
-  tex-decoration: none;
-  color: iherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 a:hover {
